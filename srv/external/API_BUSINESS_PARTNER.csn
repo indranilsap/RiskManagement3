@@ -6,6 +6,7 @@
   "definitions": {
     "API_BUSINESS_PARTNER": {
       "kind": "service",
+       "@cds.persistence.skip" : "true",
       "@cds.external": true,
       "@m.IsDefaultEntityContainer": "true",
       "@sap.message.scope.supported": "true",
@@ -13,7 +14,7 @@
     },
     "API_BUSINESS_PARTNER.A_AddressEmailAddress": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Email Address",
       "elements": {
@@ -71,7 +72,7 @@
     },
     "API_BUSINESS_PARTNER.A_AddressFaxNumber": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Fax Number",
       "elements": {
@@ -148,7 +149,7 @@
     },
     "API_BUSINESS_PARTNER.A_AddressHomePageURL": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Home Page URL",
       "elements": {
@@ -218,7 +219,7 @@
     },
     "API_BUSINESS_PARTNER.A_AddressPhoneNumber": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+    
       "@sap.content.version": "1",
       "@sap.label": "Phone Number",
       "elements": {
@@ -303,7 +304,7 @@
     },
     "API_BUSINESS_PARTNER.A_BPContactToAddress": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.creatable": "false",
       "@sap.updatable": "false",
       "@sap.deletable": "false",
@@ -713,7 +714,7 @@
     },
     "API_BUSINESS_PARTNER.A_BPContactToFuncAndDept": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.creatable": "false",
       "@sap.deletable": "false",
       "@sap.content.version": "1",
@@ -818,7 +819,7 @@
     },
     "API_BUSINESS_PARTNER.A_BuPaAddressUsage": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Address Usage",
       "elements": {
@@ -880,7 +881,6 @@
     },
     "API_BUSINESS_PARTNER.A_BuPaIdentification": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
       "@sap.content.version": "1",
       "@sap.label": "Identification",
       "elements": {
@@ -965,7 +965,7 @@
     },
     "API_BUSINESS_PARTNER.A_BuPaIndustry": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Industry",
       "elements": {
@@ -1011,7 +1011,7 @@
     },
     "API_BUSINESS_PARTNER.A_BusinessPartner": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+       "@cds.persistence.skip" : "true" ,
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Business Partner",
@@ -1594,7 +1594,7 @@
     },
     "API_BUSINESS_PARTNER.A_BusinessPartnerAddress": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+   
       "@sap.content.version": "1",
       "@sap.label": "Address",
       "elements": {
@@ -1975,7 +1975,7 @@
     },
     "API_BUSINESS_PARTNER.A_BusinessPartnerBank": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+     
       "@sap.content.version": "1",
       "@sap.label": "Bank",
       "elements": {
@@ -2120,7 +2120,7 @@
     },
     "API_BUSINESS_PARTNER.A_BusinessPartnerContact": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Contact",
       "elements": {
@@ -2198,7 +2198,7 @@
     },
     "API_BUSINESS_PARTNER.A_BusinessPartnerRole": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Role",
@@ -2245,7 +2245,7 @@
     },
     "API_BUSINESS_PARTNER.A_BusinessPartnerTaxNumber": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Tax Number",
       "elements": {
@@ -2293,7 +2293,7 @@
     },
     "API_BUSINESS_PARTNER.A_Customer": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+     
       "@sap.creatable": "false",
       "@sap.deletable": "false",
       "@sap.content.version": "1",
@@ -2639,7 +2639,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerCompany": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Customer Company",
@@ -2931,7 +2931,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerCompanyText": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Customer Company Text",
       "elements": {
@@ -2981,7 +2981,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerDunning": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Customer Dunning",
       "elements": {
@@ -3080,7 +3080,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerSalesArea": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Sales Area",
@@ -3435,7 +3435,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerSalesAreaTax": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Sales Area Tax",
@@ -3504,7 +3504,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerSalesAreaText": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Customer Sales Area Text",
       "elements": {
@@ -3570,7 +3570,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerTaxGrouping": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+ 
       "@sap.creatable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Customer Tax Grouping",
@@ -3641,7 +3641,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerText": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Customer Text",
       "elements": {
@@ -3683,7 +3683,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerUnloadingPoint": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Customer Unloading Point",
       "elements": {
@@ -3870,7 +3870,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustomerWithHoldingTax": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Withholding Tax",
       "elements": {
@@ -3985,7 +3985,7 @@
     },
     "API_BUSINESS_PARTNER.A_CustSalesPartnerFunc": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Sales Partner Functions",
       "elements": {
@@ -4093,7 +4093,7 @@
     },
     "API_BUSINESS_PARTNER.A_Supplier": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+  
       "@sap.creatable": "false",
       "@sap.deletable": "false",
       "@sap.content.version": "1",
@@ -4424,7 +4424,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierCompany": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Supplier Company",
@@ -4752,7 +4752,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierCompanyText": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Supplier Company Text",
       "elements": {
@@ -4802,7 +4802,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierDunning": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Supplier Dunning",
       "elements": {
@@ -4901,7 +4901,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierPartnerFunc": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Purchasing Partner Functions",
       "elements": {
@@ -4997,7 +4997,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierPurchasingOrg": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.deletable": "false",
       "@sap.content.version": "1",
       "@sap.label": "Purchasing Organization",
@@ -5218,7 +5218,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierPurchasingOrgText": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+ 
       "@sap.content.version": "1",
       "@sap.label": "Purchasing Organization Text",
       "elements": {
@@ -5261,7 +5261,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierText": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+     
       "@sap.content.version": "1",
       "@sap.label": "Supplier Text",
       "elements": {
@@ -5303,7 +5303,7 @@
     },
     "API_BUSINESS_PARTNER.A_SupplierWithHoldingTax": {
       "kind": "entity",
-      "@cds.persistence.skip": true,
+      
       "@sap.content.version": "1",
       "@sap.label": "Company Withholding Tax",
       "elements": {
